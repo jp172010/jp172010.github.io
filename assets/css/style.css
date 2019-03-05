@@ -1,0 +1,23 @@
+#top{
+    background-color: #ffffff;
+    height: 100px;
+}
+h1{
+    background-color:  #4aaaa5;
+    color: white;
+    float: left;
+    margin-left: 200px;
+}
+h2{
+    float: right;
+}
+h3{
+    float: left;
+}
+#pic{
+    
+}
+#story{
+    width: 960px;
+    text-align: center;
+}
