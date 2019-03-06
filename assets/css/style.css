@@ -1,3 +1,6 @@
+body{
+    text-align: center;
+}
 #top{
     background-color: #ffffff;
     height: 100px;
@@ -12,12 +15,23 @@ h2{
     float: right;
 }
 h3{
+    font-size: 32px;
+    color: #4aaaa5;
     float: left;
+    margin: auto;
 }
-#pic{
-    
+hr{
+    width: 900px;
 }
 #story{
+    margin: auto;
     width: 960px;
-    text-align: center;
+    border-style: solid;
+    border-color: #dddddd;
+}
+#pic{
+    float: left;
+}
+footer{
+
 }
