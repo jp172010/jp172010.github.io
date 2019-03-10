@@ -134,4 +134,61 @@ footer p{
 }
 .image{
     float: left;
+    margin: 20px;
+}
+.container{
+    position: relative;
+}
+#hangman{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    background-color: #4aaaa5;
+    margin-right: 0px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: #ffffff;
+}
+#rpg{
+    position: absolute;
+    left: 310px;
+    right: 0px;
+    top: 100px;
+    background-color: #4aaaa5;
+    padding-right: 0px;
+    padding-left: 0px;
+    color: #ffffff;
+    width: 250px;
+}
+#trivia{
+    position: absolute;
+    color: #ffffff;
+    top: 290px;
+    background-color: #4aaaa5;
+    left: 20px;
+    padding-right: 85px;
+    padding-left: 80px;
+}
+#rutgers{
+    position: absolute;
+    top: 290px;
+    left: 310px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-right: 50px;
+    padding-left: 60px;
+}
+#rock{
+    position: absolute;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    top: 480px;
+    padding-left: 60px;
+    padding-right: 55px;
+    left: 20px;
+}
+#index, #cpage{
+    border-right: solid;
+    padding-right: 10px;
+    border-right-width: 1px;
 }
