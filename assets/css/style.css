@@ -192,3 +192,15 @@ footer p{
     padding-right: 10px;
     border-right-width: 1px;
 }
+#dbz:hover {
+        transition: 0.70s;
+        -webkit-transition: 0.70s;
+        -moz-transition: 0.70s;
+        -ms-transition: 0.70s;
+        -o-transition: 0.70s;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+}
