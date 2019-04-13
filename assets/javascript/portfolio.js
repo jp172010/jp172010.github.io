@@ -7,3 +7,6 @@ $("#crystal").click(function(){
 $("#dbzTrivia").click(function(){
     location.href = "https://jp172010.github.io/TriviaGame/"
 });
+$("#gifOff").click(function(){
+    location.href = "https://jp172010.github.io/gifSearch/"
+});
