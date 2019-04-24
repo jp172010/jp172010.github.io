@@ -121,7 +121,7 @@ footer p{
     background-color: #ffffff;
     padding: 20px;
     margin-bottom: 50px;
-    height:670px;
+    height:800px;
     margin:auto;
     margin-bottom: 150px;
     margin-top: 50px;
@@ -229,6 +229,18 @@ footer p{
     transform: rotate(45deg);
 }
 #gifOff:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#tTime:hover {
     transition: 0.70s;
     -webkit-transition: 0.70s;
     -moz-transition: 0.70s;

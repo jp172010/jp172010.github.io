@@ -10,3 +10,6 @@ $("#dbzTrivia").click(function(){
 $("#gifOff").click(function(){
     location.href = "https://jp172010.github.io/gifSearch/"
 });
+$("#tTime").click(function(){
+    location.href = "https://jp172010.github.io/trainTime/"
+});
