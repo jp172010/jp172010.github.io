@@ -1,54 +1,202 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio-contact</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-</head>
-<STYLE>A {text-decoration: none;} </STYLE>
-<body background="assets/images/white-waves.png">
-<div id="top">
-    <h1 id="name">
-        Jonathan Pratt
-    </h1>
-    <p id="links">
-        <a href="index.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="portfolio.html">Portfolio</a>
-    </p>
-</div>
-<div id="contact">
-    <h3 class="contact">
-        Contact
-    </h3>
-    <hr id="cline" style="border: 2px solid #dddddd;" />
-    <p class="contact">
-        Name
-    </p>
-    <form>
-        <input class="box" type="text">
-    </form>
-    <p class="contact">
-        Email
-    </p>
-    <form>
-        <input class="box" type="text">
-    </form>
-    <p class="contact">
-        Message
-    </p>
-    <form>
-        <input id="message" type="text">
-    </form>
-    <p id="submit">
-        Submit
-    </p>
-</div>
-    <hr id="bline" style="border: 2px solid #4aaaa5;" />
-    <footer>
-        <p>Copyright©</p>
-    </footer>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Contact</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/style.css"
+    />
+  </head>
+  <body background="assets/images/background.png">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Jonathan Pratt</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="mailto:JP17_2010@yahoo.com"
+              >JP17_2010@yahoo.com</a
+            >
+          </li>
+          <div class="Header-item">
+            <a
+              class="Header-link"
+              href="https://github.com/jp172010"
+              data-hotkey="g d"
+              aria-label="Homepage"
+              data-ga-click="Header, go to dashboard, icon:logo"
+            >
+              <svg
+                class="octicon octicon-mark-github v-align-middle"
+                height="32"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="32"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+          <div class="Header-item">
+            <a
+              class="Header-link"
+              href="https://www.facebook.com/jon.pratt.75"
+              data-hotkey="g d"
+              aria-label="Homepage"
+              data-ga-click="Header, go to dashboard, icon:logo"
+            >
+              <img
+                src="assets/images/facebook.png"
+                alt="facebook"
+                height="32"
+              />
+            </a>
+          </div>
+          <div class="Header-item">
+            <a
+              class="Header-link"
+              href="https://www.linkedin.com/in/jonathan-pratt-12a030180/"
+              data-hotkey="g d"
+              aria-label="Homepage"
+              data-ga-click="Header, go to dashboard, icon:logo"
+            >
+              <img
+                src="assets/images/linkedin.png"
+                alt="facebook"
+                height="32"
+              />
+            </a>
+          </div>
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <div class="container" id="contactInfo">
+      <div class="row">
+        <h3>Contact Info</h3>
+      </div>
+      <div class="row">
+          Email:<a href="mailto:JP17_2010@yahoo.com">JP17_2010@yahoo.com</a>
+      </div>  
+      <div class="row">
+          <a
+              href="https://github.com/jp172010"
+              data-hotkey="g d"
+              aria-label="Homepage"
+              data-ga-click="Header, go to dashboard, icon:logo"
+            >
+              <svg
+                class="octicon octicon-mark-github v-align-middle"
+                height="32"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="32"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                ></path>
+              </svg>
+              Github Homepage
+            </a>
+      </div>
+      <div class="row">
+          <a
+              class="Header-link"
+              href="https://www.facebook.com/jon.pratt.75"
+              data-hotkey="g d"
+              aria-label="Homepage"
+              data-ga-click="Header, go to dashboard, icon:logo"
+            >
+              <img
+                src="assets/images/facebook.png"
+                alt="facebook"
+                height="32"
+              />
+              Facebook Homepage
+            </a>
+      </div> 
+      <div class="row">
+          <a
+              class="Header-link"
+              href="https://www.linkedin.com/in/jonathan-pratt-12a030180/"
+              data-hotkey="g d"
+              aria-label="Homepage"
+              data-ga-click="Header, go to dashboard, icon:logo"
+            >
+              <img
+                src="assets/images/linkedin.png"
+                alt="facebook"
+                height="32"
+              />
+              Linkedin Homepage
+            </a>
+      </div> 
+      <div class="row">
+          Cell Phone:<a href="tel:925-353-8934">925-353-8934</a>
+      </div>   
+    </div>
+
+
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark"></nav>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="assets/js/app.js"></script>
 </html>

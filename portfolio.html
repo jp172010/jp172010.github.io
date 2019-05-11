@@ -1,65 +1,204 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio-portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-</head>
-<STYLE>A {text-decoration: none;} </STYLE>
-<body background="assets/images/white-waves.png">
-<div id="top">
-    <h1 id="name">
-        Jonathan Pratt
-    </h1>
-    <p id="links">
-            <a href="index.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="portfolio.html">Portfolio</a>
-    </p>
-</div>
-<div id="portfolio">
-    <h3>
-        Portfolio
-    </h3>
-    <hr id="cline" style="border: 2px solid #dddddd;" />
-    <div class="container">
-        <img class="image" id="dbz" src="assets/images/DBZ.jpg" alt="DragonBall Z Hangman" style="width: 250px"/>
-        <div id="hangman">
-            <h4>Hangman</h4>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/style.css"
+    />
+  </head>
+
+
+  <body background="assets/images/background.png">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Jonathan Pratt</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="mailto:JP17_2010@yahoo.com"
+              >JP17_2010@yahoo.com</a
+            >
+          </li>
+          <div class="Header-item">
+            <a
+              class="Header-link"
+              href="https://github.com/jp172010"
+              data-hotkey="g d"
+              aria-label="Homepage"
+              data-ga-click="Header, go to dashboard, icon:logo"
+            >
+              <svg
+                class="octicon octicon-mark-github v-align-middle"
+                height="32"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="32"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+          <div class="Header-item">
+            <a
+              class="Header-link"
+              href="https://www.facebook.com/jon.pratt.75"
+              data-hotkey="g d"
+              aria-label="Homepage"
+              data-ga-click="Header, go to dashboard, icon:logo"
+            >
+              <img
+                src="assets/images/facebook.png"
+                alt="facebook"
+                height="32"
+              />
+            </a>
+          </div>
+          <div class="Header-item">
+            <a
+              class="Header-link"
+              href="https://www.linkedin.com/in/jonathan-pratt-12a030180/"
+              data-hotkey="g d"
+              aria-label="Homepage"
+              data-ga-click="Header, go to dashboard, icon:logo"
+            >
+              <img
+                src="assets/images/linkedin.png"
+                alt="facebook"
+                height="32"
+              />
+            </a>
+          </div>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div id="proj" class="container">
+      <div class="row">
+        <br>
+      </div>
+      <div class="row">
+          <h3 id="rProj">Recent Projects</h3>
         </div>
-    </div>
-    <div class="container">
-        <img class="image" id="crystal" src="assets/images/jewel.jpg" alt="Crystal Game" style="width: 250px"/>
-        <div id="rpg">
-            <h4>Crystal Game</h4>
+        <br>
+        <br>
+      <div class="row">  
+        <div class="col-md-5">
+        <div class="card" style="width: 18rem;">
+            <img class="pimage" src="assets/images/DBZ.jpg" class="card-img-top" alt="DBZ Hangman">
+            <div class="card-body">
+              <h5 class="card-title">DBZ Hangman</h5>
+              <p class="card-text">Dragon Ball Z themed word guess game. Guess a random letter to try and figure out the name of the Character.</p>
+              <a href="https://jp172010.github.io/wordGuessGame/" class="btn btn-primary">Play now!</a>
+            </div>
+          </div>
+  </div>
+  <div class="col-sm-1">
+  </div>
+  <div class="col-md-5">
+      <div class="card" style="width: 18rem;">
+          <img class="pimage" src="assets/images/jewel.jpg" class="card-img-top" alt="Gem Collector">
+          <div class="card-body">
+            <h5 class="card-title">Gem Collector</h5>
+            <p class="card-text">Strategic game where the user discovers the random cost of the four available gems. Then uses them to try to match the given number.</p>
+            <a href="https://jp172010.github.io/unit-4-game/" class="btn btn-primary">Play now!</a>
+          </div>
         </div>
+  </div>
     </div>
-    <div class="container">
-        <img class="image" id="dbzTrivia" src="assets/images/trivia.jpg" alt="DBZ Trivia" style="width: 250px"/>
-        <div id="trivia">
-            <h4>Trivia Game</h4>
+    <div class="row">
+          <div class="col-md-5">
+              <div class="card" style="width: 18rem;">
+                  <img class="pimage" src="assets/images/trivia.jpg" class="card-img-top" alt="DBZ Trivia">
+                  <div class="card-body">
+                    <h5 class="card-title">DBZ Trivia</h5>
+                    <p class="card-text">Dragon Ball Z themed trivia game. Only the most elite fans will score 100%.</p>
+                    <a href="https://jp172010.github.io/TriviaGame/" class="btn btn-primary">Play now!</a>
+                  </div>
+                </div>
+      </div>
+      <div class="col-md-5">
+          <div class="card" style="width: 18rem;">
+              <img class="pimage" src="assets/images/gif.jpg" class="card-img-top" alt="Giphy">
+              <div class="card-body">
+                <h5 class="card-title">Gif Off With Giphy</h5>
+                <p class="card-text">Looking for the coolest gifs? Look no further! Just enter a search, and see the top 10 Gifs of that subject.</p>
+                <a href="https://jp172010.github.io/gifSearch/" class="btn btn-primary">Search now!</a>
+              </div>
+            </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+          <img class="pimage" src="assets/images/train.jpg" class="card-img-top" alt="Train Scheduler">
+          <div class="card-body">
+            <h5 class="card-title">Train Time</h5>
+            <p class="card-text">Train scheduler. Check arrivals/departures now! Or schedule your own Train :)</p>
+            <a href="https://jp172010.github.io/trainTime/" class="btn btn-primary">Check it out!</a>
+          </div>
         </div>
-    </div>
-    <div class="container">
-        <img class="image" id="gifOff" src="assets/images/gif.jpg" alt="Giphy" style="width: 250px"/>
-        <div id="gif">
-            <h4>Gif off with Giphy</h4>
         </div>
-    </div>
-    <div class="container">
-        <img class="image" id="tTime" src="assets/images/train.jpg" alt="Train Schedule" style="width: 250px"/>
-        <div id="rock">
-            <h4>Train Time</h4>
-        </div>
-    </div>
-</div>
-<hr id="bline" style="border: 2px solid #4aaaa5;" />
-    <footer>
-        <p>Copyright©</p>
-    </footer>
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="assets/javascript/portfolio.js"></script>
+  </div>
+
+
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark"></nav>
+  </body>
+
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="assets/js/app.js"></script>
 </html>

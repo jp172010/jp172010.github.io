@@ -1,254 +1,46 @@
-body{
-    text-align: center;
-}
-#top{
-    background-color: #ffffff;
-    height: 100px;
-    border-bottom: #dddddd;
-    border-bottom-style: solid;
-}
-#name{
-    background-color:  #4aaaa5;
-    color: white;
-    float: left;
-    margin-left: 220px;
-    margin-bottom: 0px;
-    padding: 20px;
-    font-family: 'Georgia', Times, serif;
-}
-#links{
-    float: right;
-    font-size: 17px;
-    margin-right: 190px;
-    margin-top: 60px;
-    font-family: Arial, Helvetica, sans-serif
-}
-#about{
-    font-size: 32px;
-    color: #4aaaa5;
-    float: left;
+.content{
     margin: auto;
-    margin-bottom: 30px;
-    font-family: 'Georgia', Times, serif;
-}
-#tline{
-    width: 900px;
-    margin-bottom: 30px;
-}
-#story{
-    margin: auto;
-    width: 960px;
-    border-style: solid;
-    border-color: #dddddd;
-    margin-top: 50px;
-    background-color: #ffffff;
-    padding: 20px;
-    margin-bottom: 50px;
-    font-family: Arial, Helvetica, sans-serif
 }
 #pic{
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-footer{
-    background-color: #666666;
-    height: 50px;
-    font-size:10px;
-    width: 100%;
-    position: absolute;
+#bottom{
+    margin-bottom: 5%;
 }
-#bline{
-    width:100%;
-    margin-bottom: 0px;
-}
-footer p{
-    position:relative;
-    margin-bottom: 0px;
-    margin-top: 35px;
-}
-#contact{
-    width: 650px;
-    border-style: solid;
-    border-color: #dddddd;
-    margin-top: 50px;
-    background-color: #ffffff;
-    padding: 20px;
-    margin-bottom: 50px;
-    height:670px;
-    margin:auto;
-    margin-bottom: 150px;
-    margin-top: 50px;
-}
-.contact{
-    font-family: Arial, Helvetica, sans-serif;
-    float: left;
-    margin-right: 100%;
-    font-size: 16px;
-}
-#contact h3{
-    font-size: 32px;
-    color: #4aaaa5;
-    float: left;
-    font-family: 'Georgia', Times, serif;
-}
-#cline{
-    width:600px;
-
-}
-.box{
-    width:600px;
-}
-#message{
-    width:600px;
+#contactInfo{
+    background-color: white;
+    margin-top: 100px;
+    width: 300px;
     height: 300px;
+    text-align: center;
+    padding: 20px
 }
-#submit{
-    background-color: #4aaaa5;
-    float: left;
-    color: #ffffff;
-    font-size: 16px;
-    padding-left: 10px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    padding-top: 5px;
+#contactInfo a{
+    color: red;
 }
-#portfolio{
-    width: 650px;
-    border-style: solid;
-    border-color: #dddddd;
-    margin-top: 50px;
-    background-color: #ffffff;
-    padding: 20px;
-    margin-bottom: 50px;
-    height:800px;
-    margin:auto;
-    margin-bottom: 150px;
-    margin-top: 50px;
+#contactInfo div{
+    display: inline-block;
+    margin: 3%;
 }
-#portfolio h3{
-    font-size: 32px;
-    color: #4aaaa5;
-    float: left;
-    font-family: 'Georgia', Times, serif;
-}
-.image{
-    float: left;
+.pimage{
     margin: 20px;
-}
-.container{
-    position: relative;
-}
-#hangman{
-    position: absolute;
-    left: 10px;
-    top: 100px;
-    background-color: #4aaaa5;
-    margin-right: 0px;
-    padding-right: 100px;
-    padding-left: 100px;
-    color: #ffffff;
-}
-#rpg{
-    position: absolute;
-    left: 310px;
-    right: 0px;
-    top: 100px;
-    background-color: #4aaaa5;
-    padding-right: 0px;
-    padding-left: 0px;
-    color: #ffffff;
     width: 250px;
 }
-#trivia{
-    position: absolute;
-    color: #ffffff;
-    top: 290px;
-    background-color: #4aaaa5;
-    left: 20px;
-    padding-right: 85px;
-    padding-left: 80px;
+
+#proj{
+    background-color: white;
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
 }
-#gif{
-    position: absolute;
-    top: 290px;
-    left: 310px;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    padding-right: 50px;
-    padding-left: 60px;
+
+#proj div{
+    display: inline-block;
+    margin: 1%
 }
-#rock{
-    position: absolute;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    top: 480px;
-    padding-left: 60px;
-    padding-right: 55px;
-    left: 20px;
-}
-#index, #cpage{
-    border-right: solid;
-    padding-right: 10px;
-    border-right-width: 1px;
-}
-#dbz:hover {
-        transition: 0.70s;
-        -webkit-transition: 0.70s;
-        -moz-transition: 0.70s;
-        -ms-transition: 0.70s;
-        -o-transition: 0.70s;
-        -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-}
-#crystal:hover {
-        transition: 0.70s;
-        -webkit-transition: 0.70s;
-        -moz-transition: 0.70s;
-        -ms-transition: 0.70s;
-        -o-transition: 0.70s;
-        -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-}
-#dbzTrivia:hover {
-    transition: 0.70s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-#gifOff:hover {
-    transition: 0.70s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-#tTime:hover {
-    transition: 0.70s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
+
